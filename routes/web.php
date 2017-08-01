@@ -34,3 +34,6 @@ Route::get('/percobaan3','MyController@tampilmodel');
 
 Auth::routes();
 Route::resource('orangtua','OrangtuaController');
+
+Auth::routes();
+Route::resource('anak','AnakController');
