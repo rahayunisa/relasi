@@ -37,3 +37,9 @@ Route::resource('orangtua','OrangtuaController');
 
 Auth::routes();
 Route::resource('anak','AnakController');
+
+Auth::routes();
+Route::resource('author','AuthorController');
+
+Auth::routes();
+Route::resource('book','BookController');
